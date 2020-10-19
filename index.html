@@ -15,6 +15,7 @@
         <ul>
             <li><a href="index.html">Front Page</a></li>
             <li><a href="about.html">About me</a></li>
+            <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
     
@@ -25,6 +26,47 @@
             <p><img src="okizeme.jpg" alt="An example of Okizeme, where the standing player throws out an attack at the player waking up"></p>
             
             <p>Okizeme is a fundamental situation in most fighting games, and can be used to both the defending and attacking player’s advantage. Okizeme, also known as “Oki” is described as the situation when the player character or the opponent is knocked down. When a player is knocked down, the standing player has a few options that they are able to do, putting pressure on the downed player. In street fighter, such options include “meaty” attacks, which are attacks that do not connect on its first active frames, or performing a slow move before the opponent can respond. With meaty attacks, the standing player is able to do one of several options on the downed player: they can throw an attack, use a grab, or wait and/or guard. The downed player also has a few options: they can use an invincible move on wake up, use a normal attack, do a counter grab, or wait and/or guard. From the standing player’s position, an attack beats a wake up grab, throwing a grab beats guarding, and waiting/guarding beats a wake up invincible move. On the defending player’s side, an invincible move on wake up beats attacks and grabs, using a normal attack beats grabs and some attacks, and a counter grab cancels an attacking grab. Oki essentially creates a game of Rock-Paper-Scissors that the opponent must choose the correct option to prevent further damage or from going into a worse disadvantaged state.</p>
+            <aside>
+                <h3>Okizeme Options</h3>
+                <p>Rows are Defender options, Columns are Attacker options. Cells are which position wins.</p>
+                <table>
+                    <tr>
+                        <th></th>
+                        <th>Guard</th>
+                        <th>Wake-Up DP</th>
+                        <th>Mash attack</th>
+                        <th>Counter Grab</th>
+                    </tr>
+                    <tr>
+                        <th>Guard</th>
+                        <td>Tie</td>
+                        <td>Attacker</td>
+                        <td>Attacker</td>
+                        <td>Defender</td>
+                    </tr>
+                    <tr>
+                        <th>Meaty Attack</th>
+                        <td>Defender</td>
+                        <td>Defender</td>
+                        <td>Attacker</td>
+                        <td>Attacker</td>
+                    </tr>
+                    <tr>
+                        <th>Normal attack</th>
+                        <td>Defender</td>
+                        <td>Defender</td>
+                        <td>Tie</td>
+                        <td>Attacker</td>
+                    </tr>
+                    <tr>
+                        <th>Grab</th>
+                        <td>Attacker</td>
+                        <td>Defender</td>
+                        <td>Defender</td>
+                        <td>Tie</td>
+                    </tr>
+                </table>
+            </aside>
             <footer>Published 10/11/2020</footer>
         </article>
         <aside>
@@ -43,6 +85,13 @@
             <p> Written by Kevin Shin</p>
         </aside>
     </section>
-
+    <section>
+        <form>
+            <label> Sign up for our newsletter:
+                <input type="text">
+            </label>
+            <button>Subscribe</button>
+        </form>
+    </section>
 </body>
 </html>
