@@ -1,0 +1,36 @@
+html{
+    background: grey;
+}
+body{
+    background-color: lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
+    border-top: 10px solid black;
+    margin: 40px;
+    padding: 30px;
+}
+p{
+    color: black;
+}
+h1, h2{
+    color: darkblue;
+}
+section{
+    border-top: 10px solid black;
+}
+#author{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+article{
+    border-top: 5px dotted black;
+}
+.post-area{
+    background: white;
+}
+a[src]{
+    border-top: 5px solid black;
+}
+nav{
+    background-color: white;
+}
