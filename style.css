@@ -16,6 +16,7 @@ h1, h2{
 }
 section{
     border-top: 10px solid black;
+    display: flex;
 }
 #author{
     font-size: 15px;
@@ -24,6 +25,7 @@ section{
 }
 article{
     border-top: 5px dotted black;
+    padding: 20px;
 }
 .post-area{
     background: white;
@@ -32,5 +34,22 @@ a[src]{
     border-top: 5px solid black;
 }
 nav{
+    position: sticky;
     background-color: white;
+    top: 0px;
 }
+.img-small{
+    float: right;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+.wrapper {
+    background-color: rgb(79,185,227);
+    padding: 10px;
+    color: #fff; 
+  }
+  .wrapper::after {
+    content: "";
+    clear: both;
+    display: block;
+  }
